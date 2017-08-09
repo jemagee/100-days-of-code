@@ -6,7 +6,7 @@
 
 **Thoughts:** It's incredible how fast the programming muscles can atrophy - it's been a while since I've written any rails code (a coupld months) let alone any serious code at all (a few weeks) due to a variety of reasons, but I am going to have to get back into this project to get it to work.  It's obviously a much bigger project than I could have possibly thought but if I don't do work on it no one else is going to.  Hopefully I'll get faster and more focused as time goes on.  I also used a new gem, country_select, and found that stack overflow is still the primary source of archived answers to problems, even though I prefer reddit for current discussions.
 
-**Link to work:** [Code Connectino](https://github.com/jemagee/code_connection)
+**Link to work:** [Code Connection](https://github.com/jemagee/code_connection)
 
 **Links Used for Today's Work**
 
