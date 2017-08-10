@@ -1,5 +1,25 @@
 # 100 Days Of Code - Log
 
+### Day 2: August 9, 2017
+
+**Today's Progress**: I have a very old project that got unwieldy and messy so I decided the best way to do it would be to start it over.  It was initially built as company specific, but hopefully (even with amazon purchase) it can become more useful.  Participated in the Code Newbie weekly twitter chat (it's an hour and I only have 2 free hours a night, so to me it counts because it motivates me).  Did a brief sketch of the models and how they might interact and how some are indepdent from the others.  
+
+**Thoughts**:  Much like getting back into testing yesterday, the new application creation needed a refresher (I forgot -T cause I prefer RSpec and I prefer to start with postgres, just easier that way), plus installing the gems I want and getting even the basics going took some reminding.  I feel that resetting this project makes sense not only because I want to make it more accessible to many users (companies) at the beginning, but I can re-model somethings, and I can (hopefully) work on some layout stuff in the future.  Hopefully my new model layout will reduce some of the repetition an allow for more useful data to be extracted from the whole foods raw data.  Starting over a project that I know the direction of is also helpful is reanimating the muscles that have atrophied a bit as well as building on new skills at the same time.
+
+**Link to work**: [Whole Foods Project](https://github.com/jemagee/WholeFoodsProject)
+
+**Links Used for Today's Work**
+
+* [RSpec-Rails](https://github.com/rspec/rspec-rails)
+* [CodeNewbie on Twitter](https://twitter.com/codenewbies) (some jagoff has used codenewbie and never tweeted, twitter squatters - who knew)
+* [Shoulda Matchers](https://github.com/thoughtbot/shoulda-matchers)
+
+***Things I want to work on Next***
+
+* Applying validations and error control to the company creation, smoothing out the layout for errors and flash to have some style using bootstrap
+* Adding a logo uploading feature (with tests) for the company
+* Working out the brand concept - one company can have multiple brands that might have a unique UPC prefix - maybe brand isn't the right word, but figuring out a way to extract the UPC Prefix into its own model would save time when auto creating individual item information
+
 ### Day 1: August 8, 2017
 
 **Today's Progress**: Started basics of creating a user profile on Code Connection, including adding the first user specific trait, country.  
