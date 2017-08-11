@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 3: August 10, 2017
+
+**Today's Progress**: I started a new project, that I've always wanted to do because I think it's a good portfolio project that can force a lot of skills to be learned.  It's a recipe application, which I know is boring, but I haven't really seen one I like (baking is ratios, but recipes don't have *parts* in them usually).  
+
+**Thoughts**:  In three days, I've worked on three different projects, I realized today that having a variety of projects will not only help me not get **stagnant**, but might help me focus on different things.  For instance, I did some (basic) styling on the recipe application today.  Integrating javascript with my applications, along with front end design, have always been issues for me and I think the other projects might force me to develop other muscles simultaneously.  Hopefully, I can work on each project at least one day a week, but that depends on inspiration and development. I even wrote some tests that would take into account proper styling appearance because it's relatively new to me.
+
+**Link to work**: [Recipe Project](https://github.com/jemagee/recipes)
+
+**Links Used for Today's Work**
+
+* [Bootstrap](http://getbootstrap.com)
+* [Rails API guide for content_tag](http://api.rubyonrails.org/classes/ActionView/Helpers/TagHelper.html#method-i-content_tag)
+
 ### Day 2: August 9, 2017
 
 **Today's Progress**: I have a very old project that got unwieldy and messy so I decided the best way to do it would be to start it over.  It was initially built as company specific, but hopefully (even with amazon purchase) it can become more useful.  Participated in the Code Newbie weekly twitter chat (it's an hour and I only have 2 free hours a night, so to me it counts because it motivates me).  Did a brief sketch of the models and how they might interact and how some are indepdent from the others.  
