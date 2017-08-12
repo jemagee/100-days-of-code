@@ -1,5 +1,20 @@
 # 100 Days Of Code - Log
 
+### Day 4: August 11, 2017
+
+**Today's Progress**: Worked on the recipes a bit more today, implementing an edit function, refactoring the form as I like to do (including different custom go buttons), and refactoring the errors to a shared element that takes *object* so that it can be used for all forms.  Did some more styling.  Finally took a serious look at font-awesome, turns out there's a better way to implement it into buttons and it's hella easier to style that way.  
+
+**Thoughts**:  Friday's are going to be short, at least I got an hour in right?  Working on CSS styling is still a fight to be at least content with how something looks.  Seems that Bootstrap 4 is now *official*, the standard getbootstrap web site goes to a page that is new today.  While I primary prefer Reddit these days to find answers for my own questions, it seems that stack overflow is still the primary repository for solutions to previously asked questions, according to web search engines.
+
+**Link to work**: [Recipe Project](https://github.com/jemagee/recipes)
+
+**Links Used for Today's Work**
+
+* [Bootstrap](http://getbootstrap.com) (with a note, seems BS 4 might be official, so if you're still using 3 be careful)
+* [Font Awesome](http://fontawesome.io)
+* [Stack Overflow Answer on FA](https://stackoverflow.com/questions/33662623/rails-using-font-awesome-icons)
+
+
 ### Day 3: August 10, 2017
 
 **Today's Progress**: I started a new project, that I've always wanted to do because I think it's a good portfolio project that can force a lot of skills to be learned.  It's a recipe application, which I know is boring, but I haven't really seen one I like (baking is ratios, but recipes don't have *parts* in them usually).  
