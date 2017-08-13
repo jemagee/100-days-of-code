@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 5: August 12, 2017
+
+**Today's Progress**: Worked on the recipe application on the ingredient side.  Completed the basic CRUD with testing, established a root (not a big deal) but found how to test that a root route goes to the right place.  I had never done that before.  A little more styling, and use of font-awesome.  Though not directly coding, also set up the OSB project on my computer, which actually took a long time to get to work on test recordings.  
+
+**Thoughts**:  Nothing really new today, the work with OBS that I finally got working did make me think about maybe doing a test recording.  We'll see how that goes.  Perhaps an 'introduction/getting started' thing.  As for a future direction on the project, I could continue to flesh out the basics or move to the has many through and it's complication which will force javascript to be used and tested in the UI, or could work on styling more, with a navbar, those always take me too long.
+
+**Link to work**: [Recipe Project](https://github.com/jemagee/recipes)
+
+**Links Used for Today's Work**
+
+* [Relish for Rspec Help](https://relishapp.com/rspec/rspec-rails/v/2-3/docs/routing-specs/route-to-matcher)
+* [Font Awesome](http://fontawesome.io)
+* [OBS Project](https://obsproject.com/)
+
 ### Day 4: August 11, 2017
 
 **Today's Progress**: Worked on the recipes a bit more today, implementing an edit function, refactoring the form as I like to do (including different custom go buttons), and refactoring the errors to a shared element that takes *object* so that it can be used for all forms.  Did some more styling.  Finally took a serious look at font-awesome, turns out there's a better way to implement it into buttons and it's hella easier to style that way.  
