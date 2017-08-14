@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 6: August 13, 2017
+
+**Today's Progress**: Finished up the basic functionality of adding a company within the whole foods project, testing included.  Sketching out other models that are required and working on testing ideas for them.  
+
+**Thoughts**:  I know I'm probably over testing and repeating things, but reinforcing the foundation of CRUD creation (and testing) even with a single attribute is helpful to making it second nature, before I get into the more advanced interactions on most of these projects, I should be sure to be fluent.  More screencast thinking and microphone exploring.  Woke up with what turned out to be a giant migraine that sadly lasted half the day so it limited my output today sadly.  Hopefully keep it up next week though...lunch and dinner.
+
+**Link to work**: [Whole Foods Project](https://github.com/jemagee/WholeFoodsProject)
+
 ### Day 5: August 12, 2017
 
 **Today's Progress**: Worked on the recipe application on the ingredient side.  Completed the basic CRUD with testing, established a root (not a big deal) but found how to test that a root route goes to the right place.  I had never done that before.  A little more styling, and use of font-awesome.  Though not directly coding, also set up the OSB project on my computer, which actually took a long time to get to work on test recordings.  
