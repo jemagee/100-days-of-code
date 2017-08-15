@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 7: August 14, 2017
+
+**Today's Progress**: Moved forward with the whole foods project, created the region model and basic testing, wrote all the creating in one sitting instead of one step at a time, model testing and then feature form testing, all done in the span of one pomodoro so that's nice.  Worked on getting started with store addition, first model related to another model, ran into some hiccups on using the select, but at least solved those.
+
+**Thoughts**:  Still getting the eyes back in the realm of computers at work and at home, probably could work another 20 minutes or so but resting my eyes seems better.  Dealing with needing regions for store creation, instead of seeding the proper regions I just used factory girl to create a few and when I finally figured ou the select list properly, I was able to select the right one.  Hopefully it'll stick around this time so I won't have to look it up.  Still going to do basic CRUD going forward, but maybe writing the test all out at once, then working through the steps, including Model validation.  Gets done faster and hopefully more smoothly at the same time.
+
+**Link to work**: [Whole Foods Project](https://github.com/jemagee/WholeFoodsProject)
+
+**Links Used for Today's Work**
+
+* [Rails Guide on Form Helpers](http://guides.rubyonrails.org/form_helpers.html)
+* [Rails Guide on Validations](http://guides.rubyonrails.org/active_record_validations.html)
+* [Rails API Guid on Collection_Select](http://api.rubyonrails.org/classes/ActionView/Helpers/FormOptionsHelper.html#method-i-collection_select
+)
 ### Day 6: August 13, 2017
 
 **Today's Progress**: Finished up the basic functionality of adding a company within the whole foods project, testing included.  Sketching out other models that are required and working on testing ideas for them.  
