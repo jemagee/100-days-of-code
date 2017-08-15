@@ -12,8 +12,8 @@
 
 * [Rails Guide on Form Helpers](http://guides.rubyonrails.org/form_helpers.html)
 * [Rails Guide on Validations](http://guides.rubyonrails.org/active_record_validations.html)
-* [Rails API Guid on Collection_Select](http://api.rubyonrails.org/classes/ActionView/Helpers/FormOptionsHelper.html#method-i-collection_select
-)
+* [Rails API Guid on Collection_Select](http://api.rubyonrails.org/classes/ActionView/Helpers/FormOptionsHelper.html#method-i-collection_select)
+
 ### Day 6: August 13, 2017
 
 **Today's Progress**: Finished up the basic functionality of adding a company within the whole foods project, testing included.  Sketching out other models that are required and working on testing ideas for them.  
