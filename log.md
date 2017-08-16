@@ -1,5 +1,20 @@
 # 100 Days Of Code - Log
 
+### Day 8: August 15, 2017
+
+**Today's Progress**: Finished up the creation of a new store within the whole foods application and testing it for the various errors possible in setting up a new store.  Used the *internationalization* to do some minor tweaks to how things might be displayed so they were more user friendly.  Started working on the editing of stores (and thorough testing) as well, but that's still a work in progress.
+
+**Thoughts**: Using the internationalization aspect of Rails to make things more friendly is a bit annoying...in ruby one of the things I love is white space doesn't matter (yeah I'm looking at you python) but it very much matters within these files and did cause me an issue for a while, though a bigger issue I'm still having troubl with is how to deal with not propoerly selecting from a drop down list to choose the related record the new record *belongs to*.  Must exist is an awful default error code.  I also realized I can probably use this for my form buttons instead of manually changing them to Add and Update all the time...Also, annoying days at work lead to less focus but at least I got it done today.  Also while watching a GoRails episode today, I saw that his scaffold used *.update* instead of *.update_attributes*, and I kind of new the latter had been deprecated but hadn't really sussed out for waht, until now.
+
+**Link to work**: [Whole Foods Project](https://github.com/jemagee/WholeFoodsProject)
+
+**Links Used for Today's Work**
+
+* [SO Answer that pointed me to the Rails Guide below](https://stackoverflow.com/questions/808547/fully-custom-validation-error-message-with-rails)
+* [Rails Guide on il8n](http://guides.rubyonrails.org/i18n.html)
+* [Reddit Question I submitted on error customization issue](https://www.reddit.com/r/rails/comments/6tyzuf/custom_error_message_question/)
+
+
 ### Day 7: August 14, 2017
 
 **Today's Progress**: Moved forward with the whole foods project, created the region model and basic testing, wrote all the creating in one sitting instead of one step at a time, model testing and then feature form testing, all done in the span of one pomodoro so that's nice.  Worked on getting started with store addition, first model related to another model, ran into some hiccups on using the select, but at least solved those.
@@ -12,7 +27,7 @@
 
 * [Rails Guide on Form Helpers](http://guides.rubyonrails.org/form_helpers.html)
 * [Rails Guide on Validations](http://guides.rubyonrails.org/active_record_validations.html)
-* [Rails API Guid on Collection_Select](http://api.rubyonrails.org/classes/ActionView/Helpers/FormOptionsHelper.html#method-i-collection_select)
+* [Rails API Guide on Collection_Select](http://api.rubyonrails.org/classes/ActionView/Helpers/FormOptionsHelper.html#method-i-collection_select)
 
 ### Day 6: August 13, 2017
 
