@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 9: August 16, 2017
+
+**Today's Progress**:  Worked on editing and *destroying* a store, which I set up traditionally, but then altered as I don't want stores to be destroyed so much as just 'closed'.  I then implemented a javascript solution so that you see the change on the page, which in general is pretty straight forward in Rails.  **However**, setting up testing to work with Javascript is not so straight forward in Rails and I had to find the right post (below) to get it set up properly.  This is not something I fully understand so much as just know how to get going.
+
+**Thoughts**: Someone who works on rails, please, setup a simpler way to get testing to work with javascript, setting it up is a bear and honestly, if it weren't for my dedication to trying to built thoroughly tested applications, I probably would not test any Javascript actions at all...wow, what a pain.  Again allowed myself to be distracted by twitter, so my hour was a minimal hour and took longer than it should have.  I need a thorough complete way to block things (including whole applications) when I'm coding.  Hey Focus seemed like a good idea, but not so much and the application withered on the vine it seems.  On hey, my microphone is coming tomorrow. And I realized I've been working on the same application for many days in a row, but if the microphone works, I can start working on another application.
+
+**Link to work**: [Whole Foods Project](https://github.com/jemagee/WholeFoodsProject)
+
+**Links Used for Today's Work**
+
+* [Setting Up appliction to do JS testing with RSpec/Capybara](https://www.devmynd.com/blog/setting-up-rspec-and-capybara-in-rails-5-for-testing/)
+* [GoRails Video on Rails UJS/AJAX](https://gorails.com/episodes/jquery-ujs-and-ajax)
+* [Speech from American President - I watch it a lot](https://www.youtube.com/watch?v=OC2jhQ0KAAU)
+
 ### Day 8: August 15, 2017
 
 **Today's Progress**: Finished up the creation of a new store within the whole foods application and testing it for the various errors possible in setting up a new store.  Used the *internationalization* to do some minor tweaks to how things might be displayed so they were more user friendly.  Started working on the editing of stores (and thorough testing) as well, but that's still a work in progress.
