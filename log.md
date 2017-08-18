@@ -1,5 +1,37 @@
 # 100 Days Of Code - Log
 
+### Day 9 1/2: August 17, 2017
+
+**Today's Progress**:  Minimal progress in re-familiarizing myself with an application that I've been neglecting for a while due to stuckness.  Spent time working on SQL queries using PGAdmin to reacquaint myself with the database tables and the types of information I might want to have.
+
+**Thoughts**: Though I worked for an hour on what I did today, I'm calling it a half day because, well, the SQL queries I was writing weren't that useful and I struggled quite a bit at the beginning since I haven't worked with the database or postgres for a while, so working out the kinks was a bit fun.  It was productive in that it stretched a dormant / atrophied muscle, but still not enough for me to call it a *full day* of the 100 days.  Oh yeah, the microphone came.
+
+**Link to Work** [nba project](https://github.com/jemagee/nba) - no added work today but feel free to look at the schema and tests 
+
+This is a fun query I played with:
+
+```
+Select p.fname,  p.lname
+		,SUM(threesmade) * 100 /SUM(threestaken) * 1.0 AS "reb"
+from players p 
+inner join statistics s
+on p.id = s.player_id
+group by p.id
+having 
+avg(s.time_played) > 1200
+AND
+count(s.*) > (Select count(distinct gamedate)/5 from games)
+AND avg(threestaken) > 3
+ORDER BY reb DESC
+```
+This query takes a total of 423 players and isolates the 210 who meet the qualifications I have come up with to determine 'qualification' in terms of appearances to be a league leader.  For the longest time I kept getting a divided by zero error and thinking it was an integer problem, but the issue was that I wasn't taking into account that some qualified players might not take any threes, so I had to come up with an average to work with as well (3 is low I think) to eliminate all the zeroes.
+
+Now - how do I convert this into AR language?  I don't know (I've turned the qualification into a method to isolate player IDs but that might not be the way to go)
+
+**Links used for Today's Work**
+
+* [PGAdmin](https://www.pgadmin.org/) - I didn't really use this link - but it's a handy app if you wanna write queries for your PG databases before trying to figure out how to get them into a rails application.  The above query is pretty simple as it only takes into account two tables really - if I want to do splits based on home and away or against certain divisional opponents, there's a lot more joins and qualifications require.
+
 ### Day 9: August 16, 2017
 
 **Today's Progress**:  Worked on editing and *destroying* a store, which I set up traditionally, but then altered as I don't want stores to be destroyed so much as just 'closed'.  I then implemented a javascript solution so that you see the change on the page, which in general is pretty straight forward in Rails.  **However**, setting up testing to work with Javascript is not so straight forward in Rails and I had to find the right post (below) to get it set up properly.  This is not something I fully understand so much as just know how to get going.
