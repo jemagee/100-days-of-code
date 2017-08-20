@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 10: August 19, 2017
+
+**Today's Progress**:  Worked on adding brands to the whole foods application, related to the company, with some validations I haven't worked for before (must be a six digit integer for a specific attribute).  Recorded my *pilot* video for perhaps doing youtube videos.  
+
+**Thoughts**:  It took more time than I thought just to get the video right.  Thought OBS would be able to merge videos, seems not, and working with iMovie for the first time wasn't as easy as I had hoped but it is free.  Also working out the range thing was nice, hadn't used that one before that I can recall.  (Opressive heat makes one tired when they don't have A/C).  Friday was the culmination of a rather exhuasting (in every way) week at work combined with getting home later than normal, so I just had to take an off day. 
+
+**Link to work**: 
+
+* [Whole Foods Project](https://github.com/jemagee/WholeFoodsProject)
+* [Youtube Video](https://www.youtube.com/watch?v=GQkhO0ARDQw)
+
+**Links used for today's work**
+
+* [shoulda-matchers homepage](https://github.com/thoughtbot/shoulda-matchers)
+* [rails validation guide](http://guides.rubyonrails.org/active_record_validations.html)
+
 ### Day 9 1/2: August 17, 2017
 
 **Today's Progress**:  Minimal progress in re-familiarizing myself with an application that I've been neglecting for a while due to stuckness.  Spent time working on SQL queries using PGAdmin to reacquaint myself with the database tables and the types of information I might want to have.
