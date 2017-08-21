@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 11: August 20, 2017
+
+**Today's Progress**: Moved forward on some more individual set up on the whole foods project, adding items through the brand item, but still very simply.  Completed the brand CRUD work and got started on items.  
+
+**Thoughts**:  It's probably about time to start working with *accepts_nested_attributes* in Rails.  I've never really dealt with it before, but I probably should.  There's so much inter-mingling within the database that adding a related record should be easy.  Using JavaScript would make it easier but it does seem kind of involved in addition.  Thinking I might start BLog 2.0 as the project for the screencasts.  We'll see.
+
+**Link to work**: 
+
+* [Whole Foods Project](https://github.com/jemagee/WholeFoodsProject)
+
 ### Day 10: August 19, 2017
 
 **Today's Progress**:  Worked on adding brands to the whole foods application, related to the company, with some validations I haven't worked for before (must be a six digit integer for a specific attribute).  Recorded my *pilot* video for perhaps doing youtube videos.  
