@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 12:  August 21, 2017
+
+**Today's Progress**: If you could call it progress.  Once again NBA.com has gone and changed their website in a way that breaks my application from crawling through some of their information as it was previously.  Spent some time working with their new page to try and find a way to access the information I need, but as of yet have not found it.  To compound the frustrating day, I attempted to learn something new I should have worked on a long time ago, nested attributes in forms.  Should have been easy but made it difficult.
+
+**Thoughts**:  Finding good introduction how-to and why documentation isn't easy, plus, in the case of *accepts_nested_attributes_for* there are multiple ways (optional: true, inverse_of: parent) to solve the same issue.  Yet no one clearly expalins the difference.  That's not a terrible thing, but is frustrating, oh well.  I was able to finally claw together a basic nested_form but seems all the good stuff you would want to use nested forms for actually is quite difficult to accomplish in rails so I'll have to either use a Gem (Cocoon) or get deeper into Vue.js via GoRails Tutorial
+
+No work to link to - just wrote a tiny app to futz around with the nested_form code...one of those slower days where I had to take my limited time to try and learn something, and the time I thought I was going to work on learning was actually taken up by something else at lunch.  Better luck tomorrow I guess.
+
+
 ### Day 11: August 20, 2017
 
 **Today's Progress**: Moved forward on some more individual set up on the whole foods project, adding items through the brand item, but still very simply.  Completed the brand CRUD work and got started on items.  
