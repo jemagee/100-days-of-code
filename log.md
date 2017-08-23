@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 13: August 22, 2017
+
+**Today's Progress**:  Following up on more *nested attribute* work, I was able to use my lunch break to actually take another step forward.  Implemented a new *demo app* for nested attributes playing on my laptop this time but also implemented Cocoon.  Worked through a glitch on the edit function that doesn't show up on on the new function, depending on your set up (include the child id in the parent params.require function).  Used my new found knowledge of basic nested_attributes to try and put nested attributes on a show page, with tests, got it to work with some struggle.  I wanted my nested attribute to have a customer flash mesage if it succeeded and using the rails routes guide, I seemed to get it to work.  Then I wanted to be tricky and carry the nested errors back to the form - that required some modification of the show form as when you use render the built nested object is brought back with a id.nil
+
+**Thoughts**: Chris from [GoRails](http://www.gorails.com) not only makes great videos but he's a great guy and quick twitter answer...if you aren't using his videos and following him on twitter, catch up folks.  Still thinking about the video plan, I want to maybe build something from scratch that might be of interest to people (who might also want to contribute).  At the moment deciding between recipe type site or blog.  Assuming nested attriutes would be straight forward on show page was silly, but SO did come to the rescue, though had to reduce my test because of flash message.  But then I thought, I can build my own method to handle this as this is a special action.  It was pretty easy to get the 'success' working, but getting the errors for the realted message to come back was cool.  Though I've been doing code most of the days so far, I've been rehashing ideas I've done before and getting the muscles working.  This is the first *new idea* I've handled in a long time - very happy about it.  
+
+**Link to Work**:
+
+**Resource Links for Today**:
+
+* [Sitepoint how-to on ANAF and Cocoon basics](https://www.sitepoint.com/better-nested-attributes-in-rails-with-the-cocoon-gem/)
+* [GoRails](http://www.gorails.com)
+* [GoRails on Twitter](https://twitter.com/excid3)
+* [SO on Nested Attributes on Show Page](https://stackoverflow.com/questions/17146285/fields-for-in-the-show-view-nested-attributes)
+* [Member Route Addition](http://guides.rubyonrails.org/routing.html#adding-more-restful-actions)
+
 ### Day 12:  August 21, 2017
 
 **Today's Progress**: If you could call it progress.  Once again NBA.com has gone and changed their website in a way that breaks my application from crawling through some of their information as it was previously.  Spent some time working with their new page to try and find a way to access the information I need, but as of yet have not found it.  To compound the frustrating day, I attempted to learn something new I should have worked on a long time ago, nested attributes in forms.  Should have been easy but made it difficult.
