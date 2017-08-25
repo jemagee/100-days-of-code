@@ -1,5 +1,26 @@
 # 100 Days Of Code - Log
 
+### Day 13 3/4: August 24, 2017
+
+**Today's Progress**:  Using my previous study of accepts_nested_attributes_for, I started working on adding specific ingredients to recipes (as components) for my recipe application.  I worked on some display as well, laying it out.  Using the fractional gem to allow decimal conversion.  Of course it was all tested as well.  Though not code related, worked a bit on the video work to try and get screens a bit more readable and fitting on the youtube.  Needs more practice before getting started it seems.  
+
+**Thoughts**:  I like fractions, it took me a moment to find the gem I had used in the past (fractional) but it still seems to work, though it needs some attention since FixNum is deprecated in ruby 2.4.  I created [an issue](https://github.com/thechrisoshow/fractional/issues/8) about it - but the gem seems a bit neglected - and I don't know how to do it - perhaps I'll try.  I am using decimals as inputs because recipes should be scalable - if my recipe is for a dozen but you want to make 18 - it should scale it's own way, no?  Or if it's a baking recipe (using parts), it should perhaps convert to weights, we'll see.  This is only day 13 3/4 because I was going back and forth between coding and NFL preseason Eagles game...I didn't shut out distractions. 
+
+**Link to Work**: [Recipe Project](https://github.com/jemagee/recipes)
+
+**Resource Links for Today**:
+
+* [SO on Decimals in rails forms](https://stackoverflow.com/questions/18898947/rails-number-field-alternative-for-decimal-values)
+* [Fractional Gem](https://github.com/thechrisoshow/fractional)
+
+### Day 13 1/2: August 23, 2017
+
+**Today's Progress**:  It's Wednesday and I partook in the [codenewbie](https://www.codenewbie.org/) weekly Twitter chat.  It's an hour, so that's why today is a half day.  I consider it progress to partake in it as *people who code* are not really a part of my every day life.  I started sketching out notes for my new blog project in an attempt to plan something in advance.  At least an outline of things, so that I have a plan. 
+
+**Thoughts**:  The blog might be my video project so I can't really start on it just yet.  It might be the topic of the videos and as such should wait.  I disovered that the video I uploaded is too small to see on youtube (the text and such) so I have to figure out how to work on the resolution (imac retina display source) so that things are visible - if people can't see what I'm writing it will sort of only be half arsed.  Requesting input from people online doesn't seem to be helping too much so I'm just going to have to decide what direction I want to go myself I guess.
+
+
+
 ### Day 13: August 22, 2017
 
 **Today's Progress**:  Following up on more *nested attribute* work, I was able to use my lunch break to actually take another step forward.  Implemented a new *demo app* for nested attributes playing on my laptop this time but also implemented Cocoon.  Worked through a glitch on the edit function that doesn't show up on on the new function, depending on your set up (include the child id in the parent params.require function).  Used my new found knowledge of basic nested_attributes to try and put nested attributes on a show page, with tests, got it to work with some struggle.  I wanted my nested attribute to have a customer flash mesage if it succeeded and using the rails routes guide, I seemed to get it to work.  Then I wanted to be tricky and carry the nested errors back to the form - that required some modification of the show form as when you use render the built nested object is brought back with a id.nil
