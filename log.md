@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 14: August 26, 2017
+
+**Today's Progress**:  Continued working on building up recipe components with ingredients.  Created conditonal destroy function so an ingredient can not be destroyed if used in recipes, in a clean manner.  (Rails prevents the delete but throw and unpleasant error if you try).  Worked on some styling of Ingredients (with testing) to display them with recipes they are used in.  Using what I learned experiementing previously on day 13, I allowed the component addition on the show page as well.  I still had to refer to the notes from the previous day, but it was better.  Properly tested and set up dependent destroy on the recipe components relationship to avoid the error that is inherent if you don't.  Set up conditional method within the ingredient model that will only pull not already assigned ingredients when working with a recipe.
+
+**Thoughts**:  Friday August 25, no coding was done.  Ironically I did have the day off *real job*, but so did my wife, and since she works 3:30 to midnight, we don't see each other much during the week, so I think that's a god reason to have skipped a day.  Hope to make up time over the weekend with multiple hours, as many *Saturday chores* were also done on Friday.  Sometimes tricky things show up, like if you use related records, your basic destroy function becomes more complicated.  It will throw a rails error by default if you haven't set up an allow destroy and sometimes you can't.  
+
+**Link to Work**: [Recipe Project](https://github.com/jemagee/recipes)
+
+**Resource Links for Today**:
+
+* [ARQ Rails Guide](http://guides.rubyonrails.org/active_record_querying.html)
+* [SO Post for Querying Arrays](https://stackoverflow.com/questions/6900297/rails-where-sql-query-on-array)
+
 ### Day 13 3/4: August 24, 2017
 
 **Today's Progress**:  Using my previous study of accepts_nested_attributes_for, I started working on adding specific ingredients to recipes (as components) for my recipe application.  I worked on some display as well, laying it out.  Using the fractional gem to allow decimal conversion.  Of course it was all tested as well.  Though not code related, worked a bit on the video work to try and get screens a bit more readable and fitting on the youtube.  Needs more practice before getting started it seems.  
