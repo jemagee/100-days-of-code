@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 15: August 27, 2017
+
+**Today's Progress**:  Today was more of a working on new stuff day.  I tweaked my code from last night due to someone answering my reddit question with an obvious answer that hadn't occured to me.  Then I went back to working with *accepts_nested_attributes_for*, working through it from the beginning with notes this time, then moving on to cocoon, and then working through the adding from the show view, via javascript/AJAX.  It's rough of course, but it works.  
+
+**Thoughts**: Implementing AJAX/JS responses is still a bit hard for me, I did get it done but it wasn't instinctive.  Going back over something I just learned and learning it again I think is a good step, it reinforces, and each time I write it a bit more on my own.  I consider *learning days* when you're as limited in time as me as valid parts of the 100 days even if it's not primarily the qualification.  I gotta change the qualifications :)  I also need to start learning how to **plan** projects better.  Not just the idea, but how will the idea be achieved, what does it need.  Since I don't always do that I run into conflicts, or not knowing what to do next, or parts that don't fit together properly.  Due to napping sick people, I had to limit my tutorials to words, not audio, today.  My own office would be super, but who has the room :)
+
+**Resource Links for Today**:
+* [Sitepoint on ANAF & Cocoon](https://www.sitepoint.com/better-nested-attributes-in-rails-with-the-cocoon-gem/)
+* [SO Q&A on emptying a form, using trigger](https://stackoverflow.com/questions/6653556/jquery-javascript-function-to-clear-all-the-fields-of-a-form)
+* [jQuery API on Append](http://api.jquery.com/append/#append-content-content)
+* [My Reddit Question on Planning](https://www.reddit.com/r/learnprogramming/comments/6wdshs/planning_your_projects_out/)
+
 ### Day 14: August 26, 2017
 
 **Today's Progress**:  Continued working on building up recipe components with ingredients.  Created conditonal destroy function so an ingredient can not be destroyed if used in recipes, in a clean manner.  (Rails prevents the delete but throw and unpleasant error if you try).  Worked on some styling of Ingredients (with testing) to display them with recipes they are used in.  Using what I learned experiementing previously on day 13, I allowed the component addition on the show page as well.  I still had to refer to the notes from the previous day, but it was better.  Properly tested and set up dependent destroy on the recipe components relationship to avoid the error that is inherent if you don't.  Set up conditional method within the ingredient model that will only pull not already assigned ingredients when working with a recipe.
