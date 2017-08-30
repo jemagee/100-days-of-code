@@ -1,5 +1,20 @@
 # 100 Days Of Code - Log
 
+### Day 16: August 29, 2017.
+
+**Today's Progress**: Sometimes you have to take a step back to take a step forward.  The Whole Foods Project I was building is too complicated to start with.  Assumes a lot of things that I don't know yet.  I do know how to build a basic database for my company that I work at now as I already have one, so I decided to start a second whole foods project, scaled down, for one company only.  It's easier to conceptualize from the beginning and if the application expands it is expandable to a multi-company design if needed.  Set up the application with my standard gems, and started with the first model, basic, one attribute to work with.
+
+**Thoughts**: I'm going to try and plan this out a bit better.  The hardest part, long term, aside from just laying it out in a way that is pleasant to look at will be the complex queries.  They are stable and have been used in SQL Server for probably close to a decade, but automating things always makes things more complicated.  Building the queries will probably be the last step, first need to work through the basic model creation and then the data upload.
+
+### Day 15 1/2:  August 28, 2017
+
+**Today's Progress**:  Doing a little research and studying today.  Trying to figure out the best way to plan a project so that it isn't *overplanned* but I don't box myself into a corner where I realize I done messed up a long time ago and am better off starting over than stepping back.  I also reviewed an older youtube video I've seen before regarding a different way to add related records within rails.  I'm not 100% sure how using the standard `has_many` / `belongs_to` with the nested form is better, and no one else seems to be able to help.  I also found a few articles trying to help you **plan** bettr via Dev.to - not sure how much help they'll be. *(side note: does anyone remember the old days when titles were capitalized except for the basic to/the/of type words?)*
+
+**Resource Links for Today**:
+
+[Pragmatic Video on Comments, AJAX](https://www.youtube.com/watch?v=K-sns5tNdTY)
+[Plan All of the Things](https://dev.to/jlhcoder/plan-all-of-the-things)
+[Yes! You Can Plan Your Projects](https://dev.to/mistermocha/yes-you-can-plan-your-projects)
 ### Day 15: August 27, 2017
 
 **Today's Progress**:  Today was more of a working on new stuff day.  I tweaked my code from last night due to someone answering my reddit question with an obvious answer that hadn't occured to me.  Then I went back to working with *accepts_nested_attributes_for*, working through it from the beginning with notes this time, then moving on to cocoon, and then working through the adding from the show view, via javascript/AJAX.  It's rough of course, but it works.  
