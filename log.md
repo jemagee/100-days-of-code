@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 17: August 30, 2017 (It's a Wednesday)
+
+**Todays Progress**:  Got some general *model* planning done on paper.  It's a start.  The application like I said is going to be query heavy.  Once it's set up, only one table changes much.  It's probably a warehouse but I don't know NoSQL yet so it's staying in PostGres.  Finished up the basic first model set up and testing.  Layouts can wait until later.  Starter the second step model which is connected to the first.  Participated in the CodeNewbies Twitter chat, which I did say to myself I wasn't going to do.
+
+**Thoughts**:  This heat wave in california is obnoxious, it's 8:30 and i'm sweating as I type, it is not condusive to studying or focusing.  Air conditioning would be so great, and maybe I'd get more done in my limited time.  Even this log got the short shrift today cause it's freaking hot and I need to turn off all heat sources I can.
+
 ### Day 16: August 29, 2017.
 
 **Today's Progress**: Sometimes you have to take a step back to take a step forward.  The Whole Foods Project I was building is too complicated to start with.  Assumes a lot of things that I don't know yet.  I do know how to build a basic database for my company that I work at now as I already have one, so I decided to start a second whole foods project, scaled down, for one company only.  It's easier to conceptualize from the beginning and if the application expands it is expandable to a multi-company design if needed.  Set up the application with my standard gems, and started with the first model, basic, one attribute to work with.
